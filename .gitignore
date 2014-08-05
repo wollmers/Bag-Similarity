@@ -1,0 +1,7 @@
+/Bag-Similarity-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove

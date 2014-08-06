@@ -1,6 +1,7 @@
 Revision history for Bag-Similarity
 
 {{$NEXT}}
+       - cleanup
 
 0.002  2014-08-06 00:12:50 CEST
         - added cosine

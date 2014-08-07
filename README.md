@@ -16,7 +16,7 @@ Helmut Wollmersdorfer <helmut.wollmersdorfer@gmail.com>
 
 # COPYRIGHT
 
-Copyright 2014- Helmut Wollmersdorfer
+Copyright 2014 Helmut Wollmersdorfer
 
 # LICENSE
 

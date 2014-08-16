@@ -78,11 +78,6 @@ sub from_tokens {
 
 sub from_bags { croak 'Method "from_bags" not implemented in subclass' }
 
-sub min {
-  (scalar(@{$_[1]}) < scalar(@{$_[2]}))
-    ? scalar(@{$_[1]}) : scalar(@{$_[2]});
-}
-
 1;
 
 __END__

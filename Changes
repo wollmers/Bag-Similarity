@@ -1,6 +1,7 @@
 Revision history for Bag-Similarity
 
 {{$NEXT}}
+       - remove useless code
 
 0.010  2014-08-16 23:36:48 CEST
        - badges in pod

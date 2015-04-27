@@ -98,9 +98,15 @@ __END__
 
 Bag::Similarity - Similarity measures for bags
 
-=for html
+=begin html
+
 <a href="https://travis-ci.org/wollmers/Bag-Similarity"><img src="https://travis-ci.org/wollmers/Bag-Similarity.png" alt="Bag-Similarity"></a>
 <a href='https://coveralls.io/r/wollmers/Bag-Similarity?branch=master'><img src='https://coveralls.io/repos/wollmers/Bag-Similarity/badge.png?branch=master' alt='Coverage Status' /></a>
+<a href='http://cpants.cpanauthors.org/dist/Bag-Similarity'><img src='http://cpants.cpanauthors.org/dist/Bag-Similarity.png' alt='Kwalitee Score' /></a>
+<a href="http://badge.fury.io/pl/Bag-Similarity"><img src="https://badge.fury.io/pl/Bag-Similarity.svg" alt="CPAN version" height="18"></a>
+
+=end html
+
 
 =head1 SYNOPSIS
 
@@ -161,9 +167,15 @@ Croaks if called directly. This method should be implemented in a child module.
 
 Helmut Wollmersdorfer E<lt>helmut.wollmersdorfer@gmail.comE<gt>
 
+=begin html
+
+<a href='http://cpants.cpanauthors.org/author/wollmers'><img src='http://cpants.cpanauthors.org/author/wollmers.png' alt='Kwalitee Score' /></a>
+
+=end html
+
 =head1 COPYRIGHT
 
-Copyright 2014 Helmut Wollmersdorfer
+Copyright 2014-2015 Helmut Wollmersdorfer
 
 =head1 LICENSE
 

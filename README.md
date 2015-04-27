@@ -3,9 +3,10 @@
 Bag::Similarity - Similarity measures for bags
 
 <div>
-
     <a href="https://travis-ci.org/wollmers/Bag-Similarity"><img src="https://travis-ci.org/wollmers/Bag-Similarity.png" alt="Bag-Similarity"></a>
     <a href='https://coveralls.io/r/wollmers/Bag-Similarity?branch=master'><img src='https://coveralls.io/repos/wollmers/Bag-Similarity/badge.png?branch=master' alt='Coverage Status' /></a>
+    <a href='http://cpants.cpanauthors.org/dist/Bag-Similarity'><img src='http://cpants.cpanauthors.org/dist/Bag-Similarity.png' alt='Kwalitee Score' /></a>
+    <a href="http://badge.fury.io/pl/Bag-Similarity"><img src="https://badge.fury.io/pl/Bag-Similarity.svg" alt="CPAN version" height="18"></a>
 </div>
 
 # SYNOPSIS
@@ -70,9 +71,13 @@ Croaks if called directly. This method should be implemented in a child module.
 
 Helmut Wollmersdorfer <helmut.wollmersdorfer@gmail.com>
 
+<div>
+    <a href='http://cpants.cpanauthors.org/author/wollmers'><img src='http://cpants.cpanauthors.org/author/wollmers.png' alt='Kwalitee Score' /></a>
+</div>
+
 # COPYRIGHT
 
-Copyright 2014 Helmut Wollmersdorfer
+Copyright 2014-2015 Helmut Wollmersdorfer
 
 # LICENSE
 

@@ -51,7 +51,7 @@
          }
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/wollmers/Bag-Similarity/issues"
@@ -63,7 +63,7 @@
          "web" : "https://github.com/wollmers/Bag-Similarity"
       }
    },
-   "version" : "0.019",
+   "version" : "0.020",
    "x_contributors" : [
       "Helmut Wollmersdorfer <helmut.wollmersdorfer@fixpunkt.de>",
       "Helmut Wollmersdorfer <helmut@wollmersdorfer.at>"

@@ -17,8 +17,11 @@ else {
   add_stopwords(qw(
      Helmut
      Wollmersdorfer
-     Subsequence
-     Subsequences
+coefficent
+ngrams
+tokenized
+Jaccard
+uncatched
   ));
   all_pod_files_spelling_ok();
 }

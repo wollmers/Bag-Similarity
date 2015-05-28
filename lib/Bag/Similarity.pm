@@ -25,12 +25,12 @@ sub similarity {
 
 sub _any {
   my ($self, $any, $width) = @_;
-	
+
   if (ref($any) eq 'ARRAY') {
     return $any;
   }
   elsif (ref($any) eq 'HASH') {
-	return [grep { $any->{$_} } keys %$any];
+    return [grep { $any->{$_} } keys %$any];
   }
   elsif (ref($any)) {
     return [];
@@ -56,7 +56,7 @@ sub from_tokens {
 
   return 1 if (!(scalar @$tokens1 || scalar @$tokens2));
   return 0 unless (scalar @$tokens1 && scalar @$tokens2 );
-    
+
   return $self->from_bags(
     $tokens1,
     $tokens2,
@@ -66,7 +66,7 @@ sub from_tokens {
 sub from_bags { croak 'Method "from_bags" not implemented in subclass' }
 
 sub intersection {
-  my ($self, $tokens1, $tokens2) = @_; 
+  my ($self, $tokens1, $tokens2) = @_;
   my %bag1;
   my %bag2;
   $bag1{$_}++ for @{$tokens1};
@@ -127,11 +127,11 @@ All methods can be used as class or object methods.
 =head2 similarity
 
   my $similarity = $object->similarity($any1,$any1,$width);
-  
+
 C<$any> can be an arrayref, a hashref or a string. Strings are tokenized into n-grams of width C<$width>.
 
 C<$width> must be integer, or defaults to 1.
-  
+
 =head2 from_tokens
 
   my $similarity = $object->from_tokens(['a','b'],['b']);
@@ -139,7 +139,7 @@ C<$width> must be integer, or defaults to 1.
 =head2 from_bags
 
   my $similarity = $object->from_bags(['a'],['b']);
-  
+
 Croaks if called directly. This method should be implemented in a child module.
 
 =head2 intersection
@@ -153,7 +153,7 @@ Croaks if called directly. This method should be implemented in a child module.
 =head2 min
 
   my $min_set_size = $object->min(['a'],['b']);
-  
+
 =head2 ngrams
 
   my @monograms = $object->ngrams('abc');
@@ -161,7 +161,7 @@ Croaks if called directly. This method should be implemented in a child module.
 
 =head2 _any
 
-  my $arrayref = $object->_any($any,$width);  
+  my $arrayref = $object->_any($any,$width);
 
 =head1 AUTHOR
 

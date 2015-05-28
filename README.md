@@ -28,7 +28,6 @@ All methods can be used as class or object methods.
 ## similarity
 
     my $similarity = $object->similarity($any1,$any1,$width);
-    
 
 `$any` can be an arrayref, a hashref or a string. Strings are tokenized into n-grams of width `$width`.
 
@@ -41,7 +40,6 @@ All methods can be used as class or object methods.
 ## from\_bags
 
     my $similarity = $object->from_bags(['a'],['b']);
-    
 
 Croaks if called directly. This method should be implemented in a child module.
 
@@ -56,7 +54,6 @@ Croaks if called directly. This method should be implemented in a child module.
 ## min
 
     my $min_set_size = $object->min(['a'],['b']);
-    
 
 ## ngrams
 
@@ -65,7 +62,7 @@ Croaks if called directly. This method should be implemented in a child module.
 
 ## \_any
 
-    my $arrayref = $object->_any($any,$width);  
+    my $arrayref = $object->_any($any,$width);
 
 # AUTHOR
 

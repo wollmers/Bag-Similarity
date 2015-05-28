@@ -9,20 +9,20 @@ our $VERSION = '0.019';
 
 sub from_bags {
   my ($self, $bag1, $bag2) = @_;
-  
-  my $cosine = $self->_cosine( 
-	$self->_normalize($self->_make_vector( $bag1 )), 
-	$self->_normalize($self->_make_vector( $bag2 )) 
+
+  my $cosine = $self->_cosine(
+    $self->_normalize($self->_make_vector( $bag1 )),
+    $self->_normalize($self->_make_vector( $bag2 ))
   );
   return $cosine;
 }
 
-sub _make_vector {			
+sub _make_vector {
   my ( $self, $tokens ) = @_;
-  my %elements;  
+  my %elements;
   do { $_++ } for @elements{@$tokens};
   return \%elements;
-}	
+}
 
 # Assumes both incoming vectors are normalized
 sub _cosine { shift->_dot( @_ ) }
@@ -87,12 +87,12 @@ Bag::Similarity::Cosine - Cosine similarity for sets
 =head1 SYNOPSIS
 
  use Bag::Similarity::Cosine;
- 
+
  # object method
  my $cosine = Bag::Similarity::Cosine->new;
  my $similarity = $cosine->similarity('Photographer','Fotograf');
- 
- 
+
+
 =head1 DESCRIPTION
 
 =head2 Cosine similarity
@@ -108,9 +108,9 @@ following new ones.
 =head2 from_bags
 
   my $similarity = $object->from_bags(['a'],['b']);
- 
+
 This method expects two arrayrefs of strings as parameters. The parameters are not checked, thus can lead to funny results or uncatched divisions by zero.
- 
+
 If you want to use this method directly, you should catch the situation where one of the arrayrefs is empty (similarity is 0), or both are empty (similarity is 1).
 
 =head1 SOURCE REPOSITORY

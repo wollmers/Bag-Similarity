@@ -66,7 +66,7 @@ Croaks if called directly. This method should be implemented in a child module.
 
 # AUTHOR
 
-Helmut Wollmersdorfer <helmut.wollmersdorfer@gmail.com>
+Helmut Wollmersdorfer &lt;helmut.wollmersdorfer@gmail.com>
 
 <div>
     <a href='http://cpants.cpanauthors.org/author/wollmers'><img src='http://cpants.cpanauthors.org/author/wollmers.png' alt='Kwalitee Score' /></a>

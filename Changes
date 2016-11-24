@@ -1,6 +1,7 @@
 Revision history for Bag-Similarity
 
 {{$NEXT}}
+       - requires 'parent'
 
 0.020  2015-05-28 22:13:47 CEST
        - added author tests

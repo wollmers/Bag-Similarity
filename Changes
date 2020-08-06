@@ -1,6 +1,7 @@
 Revision history for Bag-Similarity
 
 {{$NEXT}}
+       - improve Kwalitee by provides
 
 0.021  2016-11-24 11:11:33 CET
        - requires 'parent'

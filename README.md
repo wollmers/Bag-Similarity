@@ -66,7 +66,7 @@ Croaks if called directly. This method should be implemented in a child module.
 
 # AUTHOR
 
-Helmut Wollmersdorfer &lt;helmut.wollmersdorfer@gmail.com>
+Helmut Wollmersdorfer <helmut@wollmersdorfer.at>
 
 <div>
     <a href='http://cpants.cpanauthors.org/author/wollmers'><img src='http://cpants.cpanauthors.org/author/wollmers.png' alt='Kwalitee Score' /></a>
@@ -74,7 +74,7 @@ Helmut Wollmersdorfer &lt;helmut.wollmersdorfer@gmail.com>
 
 # COPYRIGHT
 
-Copyright 2014-2015 Helmut Wollmersdorfer
+Copyright 2014-2020 Helmut Wollmersdorfer
 
 # LICENSE
 
